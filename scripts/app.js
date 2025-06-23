@@ -36,14 +36,16 @@ function handleRouteChange() {
 // --- Data Loading Functions ---
 
 function loadAndRenderHomepage() {
-    fetch('/data/archetypes.json')
+    // FIX: Changed path from '/data/...' to 'data/...'
+    fetch('data/archetypes.json')
         .then(res => res.ok ? res.json() : Promise.reject(new Error(`Failed to load archetypes: ${res.status}`)))
         .then(renderHomepage)
         .catch(err => console.error("Error loading homepage:", err));
 }
 
 function loadAndRenderDetail(slug) {
-    fetch(`/data/${slug}.json`)
+    // FIX: Changed path from '/data/...' to 'data/...'
+    fetch(`data/${slug}.json`)
         .then(res => res.ok ? res.json() : Promise.reject(new Error(`Failed to load detail for ${slug}: ${res.status}`)))
         .then(populateDetailPage)
         .catch(err => {
@@ -53,13 +55,14 @@ function loadAndRenderDetail(slug) {
 }
 
 function loadAndRenderPlaybook() {
-    fetch('/data/transformation_playbook.json')
+    // FIX: Changed path from '/data/...' to 'data/...'
+    fetch('data/transformation_playbook.json')
         .then(res => res.ok ? res.json() : Promise.reject(new Error(`Failed to load playbook: ${res.status}`)))
         .then(renderPlaybook)
         .catch(err => console.error("Error loading playbook:", err));
 }
 
-// --- Rendering Functions ---
+// --- Rendering Functions (No changes below this line) ---
 
 function renderHomepage(archetypes) {
     const homepageGrid = document.getElementById('homepage-grid');
