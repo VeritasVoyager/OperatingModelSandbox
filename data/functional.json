@@ -1,0 +1,640 @@
+{
+    "model_name": "Functional Operating Model",
+    "tagline": "Organized for operational efficiency and deep functional specialization.",
+    "description_short": "A foundational model where the organization is structured into departments based on specialized expertise. It is primarily designed to drive cost leadership through efficiency, foster deep domain knowledge, and achieve economies of scale, making it ideal for stable environments where processes are well-defined.",
+    "description_long": "The central strategic intent of the Functional Operating Model is to achieve operational efficiency and cultivate deep specialization. The organization is divided into departments based on common functions or areas of expertise, such as finance, marketing, and operations. This model is underpinned by key principles including the specialization of labor, a clear hierarchical chain of command within each function, and the standardization of processes to achieve economies of scale. It is primarily designed to solve the challenges of inefficiency and lack of deep expertise in less structured organizations, aiming to create a strategic advantage through cost leadership and functional excellence.",
+    "file_slug": "functional",
+    "tags": [
+        {
+            "tag_id": 101,
+            "archetype_id": 1,
+            "tag_category": "Best For",
+            "tag_value": "Efficiency"
+        },
+        {
+            "tag_id": 102,
+            "archetype_id": 1,
+            "tag_category": "Size",
+            "tag_value": "Enterprise"
+        },
+        {
+            "tag_id": 103,
+            "archetype_id": 1,
+            "tag_category": "Industries",
+            "tag_value": "Manufacturing"
+        },
+        {
+            "tag_id": 104,
+            "archetype_id": 1,
+            "tag_category": "Industries",
+            "tag_value": "Government"
+        },
+        {
+            "tag_id": 105,
+            "archetype_id": 1,
+            "tag_category": "Industries",
+            "tag_value": "Retail / E-commerce"
+        }
+    ],
+    "strengths_weaknesses": {
+        "strengths": [
+            "Enhanced Specialization & Deep Expertise",
+            "Operational Efficiency",
+            "Clear Career Paths",
+            "Economies of Scale",
+            "Clear Accountability & Control"
+        ],
+        "weaknesses": [
+            "Functional Silos & Poor Coordination",
+            "Slow Response to Market Changes",
+            "Narrow Functional Focus",
+            "Stifled Cross-Functional Innovation",
+            "Bureaucratic Decision-Making"
+        ]
+    },
+    "kpis": [
+        {
+            "kpi_id": 301,
+            "archetype_id": 1,
+            "kpi_name": "Overall Cost Efficiency / Operating Margin",
+            "kpi_type": "Lagging",
+            "purpose": "Measures overall profitability and the efficiency of operations."
+        },
+        {
+            "kpi_id": 302,
+            "archetype_id": 1,
+            "kpi_name": "Product/Service Quality (e.g., Defect Rates)",
+            "kpi_type": "Lagging",
+            "purpose": "Indicates the effectiveness of specialized functions in delivering high-quality outputs."
+        },
+        {
+            "kpi_id": 303,
+            "archetype_id": 1,
+            "kpi_name": "Economies of Scale Achieved",
+            "kpi_type": "Lagging",
+            "purpose": "Measures the success of cost reduction as volume and centralization increase."
+        },
+        {
+            "kpi_id": 304,
+            "archetype_id": 1,
+            "kpi_name": "Process Standardization Level",
+            "kpi_type": "Leading",
+            "purpose": "Predicts future consistency, efficiency, and scalability of operations."
+        },
+        {
+            "kpi_id": 305,
+            "archetype_id": 1,
+            "kpi_name": "Employee Specialization/Expertise Level",
+            "kpi_type": "Leading",
+            "purpose": "Predicts future quality and innovation capability within functional silos."
+        }
+    ],
+    "governance_leadership": [
+        {
+            "gov_id": 401,
+            "archetype_id": 1,
+            "category": "C-Suite",
+            "point": "The C-Suite is composed of executives whose titles reflect the core functions (e.g., CFO, CMO, CTO). This functional alignment at the highest level reinforces the model's core logic of specialization and vertical accountability."
+        },
+        {
+            "gov_id": 402,
+            "archetype_id": 1,
+            "category": "C-Suite",
+            "point": "Because the model structurally creates strong functional silos, the CEO's role as the primary integrator becomes uniquely critical, as they are often the only executive with a holistic, cross-enterprise view."
+        },
+        {
+            "gov_id": 403,
+            "archetype_id": 1,
+            "category": "L1/L2 Roles",
+            "point": "Leadership (VPs, Directors) is structured hierarchically within each functional silo. This creates deep expertise but can also lead to a narrow 'functional' perspective and makes it challenging to develop well-rounded general managers with cross-enterprise experience."
+        },
+        {
+            "gov_id": 404,
+            "archetype_id": 1,
+            "category": "Mechanisms",
+            "point": "Functional Leadership Teams or Councils govern their own domains, setting detailed functional strategy, allocating internal resources, and monitoring functional KPIs."
+        },
+        {
+            "gov_id": 405,
+            "archetype_id": 1,
+            "category": "Mechanisms",
+            "point": "An Executive Committee (ExCo) is the primary body for overall corporate strategy, major cross-functional resource allocation, and, crucially, for resolving significant conflicts and strategic trade-offs between functions."
+        },
+        {
+            "gov_id": 406,
+            "archetype_id": 1,
+            "category": "Mechanisms",
+            "point": "The model relies heavily on formal, often annual, planning and budgeting cycles where functions propose plans that are reviewed and approved hierarchically. This is a primary control mechanism."
+        },
+        {
+            "gov_id": 407,
+            "archetype_id": 1,
+            "category": "Decision Authority",
+            "point": "Housed within Functions: Decision-making authority for operational matters is highly centralized *within* each functional silo. The functional head (e.g., CMO, CFO) is the primary decision-maker for their respective domain's strategy, standards, and resource deployment."
+        },
+        {
+            "gov_id": 408,
+            "archetype_id": 1,
+            "category": "Decision Authority",
+            "point": "Impacted by Structure: Decisions that must span multiple functions are a significant structural weakness. They cannot be made autonomously and require formal escalation to a common senior manager or committee where the functional heads intersect. This process is the primary cause of the model's characteristic slowness and bureaucracy for cross-functional initiatives."
+        }
+    ],
+    "industry_nuances": [
+        {
+            "nuance_id": 501,
+            "archetype_id": 1,
+            "industry_name": "Manufacturing",
+            "application": "Characterized by distinct departments like R&D, Engineering, Production, and Quality Assurance. Emphasis is on process efficiency (e.g., Lean) and strict quality control.",
+            "challenges": "Silos between design and manufacturing can lead to products that are difficult or costly to produce. Slow response to shifts in market demand if coordination is weak.",
+            "best_practices": "Implementing robust Sales & Operations Planning (S&OP) processes to align demand with supply. Using Design for Manufacturing (DFM) principles to involve engineers early in the R&D process."
+        },
+        {
+            "nuance_id": 502,
+            "archetype_id": 1,
+            "industry_name": "Public Sector / Government",
+            "application": "Organized into ministries or departments based on specific public service functions (e.g., Ministry of Health, Department of Education). Operations are heavily driven by regulatory compliance and public accountability.",
+            "challenges": "Prone to bureaucracy, resistance to change, and significant difficulties in inter-departmental collaboration needed to solve complex societal problems.",
+            "best_practices": "Establishing robust governance with clear roles. Implementing strong performance management systems to track outcomes. Sometimes adopting hybrid models (e.g., matrix teams) for specific crisis response."
+        },
+        {
+            "nuance_id": 503,
+            "archetype_id": 1,
+            "industry_name": "Financial Services",
+            "application": "Corporate functions like Finance, Risk, Compliance, and Legal are frequently structured functionally. There is a strong trend towards establishing functional Centers of Excellence (CoEs) to centralize deep expertise.",
+            "challenges": "Silos can hinder the agile launch and servicing of new financial products. Integrating data from disparate functional systems to get a 360-degree customer view is a major hurdle.",
+            "best_practices": "Leveraging CoEs to connect experts across the organization. Appointing Global Process Owners (GPOs) to standardize processes. Utilizing centralized technology platforms for data management."
+        },
+        {
+            "nuance_id": 504,
+            "archetype_id": 1,
+            "industry_name": "Retail / E-commerce",
+            "application": "Core operational functions like Supply Chain, Warehouse Operations, Inventory Management, Logistics, and Customer Service are frequently organized functionally to drive efficiency.",
+            "challenges": "Coordinating inventory levels with dynamic marketing promotions and sales forecasts. Ensuring a seamless omnichannel experience when online and physical store operations are managed in separate silos.",
+            "best_practices": "Strong technological integration between e-commerce platforms and backend functional systems (ERP, WMS). Leveraging data analytics extensively for demand forecasting and inventory planning."
+        }
+    ],
+    "functional_view_data": {
+        "Development": [
+            {
+                "body_of_work": "Tech Strategy, Product Architecture"
+            },
+            {
+                "body_of_work": "Software Development"
+            },
+            {
+                "body_of_work": "Quality Assurance"
+            },
+            {
+                "body_of_work": "DevOps"
+            },
+            {
+                "body_of_work": "Product Security"
+            },
+            {
+                "body_of_work": "Support and Monitoring"
+            },
+            {
+                "body_of_work": "Technical Integrations"
+            },
+            {
+                "body_of_work": "R&D, Innovation"
+            }
+        ],
+        "Finance": [
+            {
+                "body_of_work": "Accounting"
+            },
+            {
+                "body_of_work": "Accounts Payable"
+            },
+            {
+                "body_of_work": "Accounts Receivable"
+            },
+            {
+                "body_of_work": "Financial Planning & Analysis"
+            },
+            {
+                "body_of_work": "Legal"
+            },
+            {
+                "body_of_work": "Payroll"
+            },
+            {
+                "body_of_work": "Reporting & Integrations"
+            }
+        ],
+        "G&A": [
+            {
+                "body_of_work": "Transformation & PMO"
+            },
+            {
+                "body_of_work": "Security & Compliance"
+            }
+        ],
+        "IT": [
+            {
+                "body_of_work": "IT Applications"
+            },
+            {
+                "body_of_work": "IT Infrastructure"
+            },
+            {
+                "body_of_work": "IT Support"
+            },
+            {
+                "body_of_work": "Information Security"
+            },
+            {
+                "body_of_work": "Data Management"
+            }
+        ],
+        "Marketing": [
+            {
+                "body_of_work": "Demand Generation"
+            },
+            {
+                "body_of_work": "Digital Marketing"
+            },
+            {
+                "body_of_work": "Events"
+            },
+            {
+                "body_of_work": "Partner Marketing"
+            },
+            {
+                "body_of_work": "Brand Marketing"
+            },
+            {
+                "body_of_work": "Content Marketing"
+            },
+            {
+                "body_of_work": "Product Marketing"
+            },
+            {
+                "body_of_work": "Marketing Services"
+            }
+        ],
+        "People / HR": [
+            {
+                "body_of_work": "People Experience"
+            },
+            {
+                "body_of_work": "Talent Management"
+            },
+            {
+                "body_of_work": "Talent Acquisition"
+            },
+            {
+                "body_of_work": "People Operations"
+            },
+            {
+                "body_of_work": "HR Operations"
+            },
+            {
+                "body_of_work": "Business Partners"
+            },
+            {
+                "body_of_work": "Change Management"
+            },
+            {
+                "body_of_work": "Workforce Engagement"
+            }
+        ],
+        "Post-Sales & Operations": [
+            {
+                "body_of_work": "Customer Success"
+            },
+            {
+                "body_of_work": "Customer Service"
+            },
+            {
+                "body_of_work": "Prof. Services & Implementation"
+            },
+            {
+                "body_of_work": "Provider Operations"
+            },
+            {
+                "body_of_work": "Fulfillment"
+            },
+            {
+                "body_of_work": "Business Analytics"
+            },
+            {
+                "body_of_work": "Data Governance"
+            }
+        ],
+        "Product": [
+            {
+                "body_of_work": "Product Operations"
+            },
+            {
+                "body_of_work": "Product UX/UI Design"
+            },
+            {
+                "body_of_work": "Product Strategy / Management"
+            },
+            {
+                "body_of_work": "Product Innovation"
+            },
+            {
+                "body_of_work": "User Experience Research"
+            },
+            {
+                "body_of_work": "Pricing"
+            }
+        ],
+        "Sales": [
+            {
+                "body_of_work": "Channel Sales"
+            },
+            {
+                "body_of_work": "Direct Sales Enterprise, MMK and SMB"
+            },
+            {
+                "body_of_work": "Revenue Operations"
+            },
+            {
+                "body_of_work": "Account Management"
+            },
+            {
+                "body_of_work": "Sales Engineering"
+            },
+            {
+                "body_of_work": "Renewals"
+            }
+        ]
+    },
+    "financial_view_data": {
+        "COGS": [
+            {
+                "body_of_work": "Customer Success"
+            },
+            {
+                "body_of_work": "Customer Service"
+            },
+            {
+                "body_of_work": "Prof. Services & Implementation"
+            },
+            {
+                "body_of_work": "Provider Operations"
+            },
+            {
+                "body_of_work": "Fulfillment"
+            },
+            {
+                "body_of_work": "Business Analytics"
+            },
+            {
+                "body_of_work": "Data Governance"
+            }
+        ],
+        "G&A": [
+            {
+                "body_of_work": "Transformation & PMO"
+            },
+            {
+                "body_of_work": "Security & Compliance"
+            },
+            {
+                "body_of_work": "Accounting"
+            },
+            {
+                "body_of_work": "Accounts Payable"
+            },
+            {
+                "body_of_work": "Accounts Receivable"
+            },
+            {
+                "body_of_work": "Financial Planning & Analysis"
+            },
+            {
+                "body_of_work": "Legal"
+            },
+            {
+                "body_of_work": "Payroll"
+            },
+            {
+                "body_of_work": "Reporting & Integrations"
+            },
+            {
+                "body_of_work": "IT Applications"
+            },
+            {
+                "body_of_work": "IT Infrastructure"
+            },
+            {
+                "body_of_work": "IT Support"
+            },
+            {
+                "body_of_work": "Information Security"
+            },
+            {
+                "body_of_work": "Data Management"
+            },
+            {
+                "body_of_work": "People Experience"
+            },
+            {
+                "body_of_work": "Talent Management"
+            },
+            {
+                "body_of_work": "Talent Acquisition"
+            },
+            {
+                "body_of_work": "People Operations"
+            },
+            {
+                "body_of_work": "HR Operations"
+            },
+            {
+                "body_of_work": "Business Partners"
+            },
+            {
+                "body_of_work": "Change Management"
+            },
+            {
+                "body_of_work": "Workforce Engagement"
+            }
+        ],
+        "R&D": [
+            {
+                "body_of_work": "Tech Strategy, Product Architecture"
+            },
+            {
+                "body_of_work": "Software Development"
+            },
+            {
+                "body_of_work": "Quality Assurance"
+            },
+            {
+                "body_of_work": "DevOps"
+            },
+            {
+                "body_of_work": "Product Security"
+            },
+            {
+                "body_of_work": "Support and Monitoring"
+            },
+            {
+                "body_of_work": "Technical Integrations"
+            },
+            {
+                "body_of_work": "R&D, Innovation"
+            },
+            {
+                "body_of_work": "Product Operations"
+            },
+            {
+                "body_of_work": "Product UX/UI Design"
+            },
+            {
+                "body_of_work": "Product Strategy / Management"
+            },
+            {
+                "body_of_work": "Product Innovation"
+            },
+            {
+                "body_of_work": "User Experience Research"
+            }
+        ],
+        "S&M": [
+            {
+                "body_of_work": "Pricing"
+            },
+            {
+                "body_of_work": "Demand Generation"
+            },
+            {
+                "body_of_work": "Digital Marketing"
+            },
+            {
+                "body_of_work": "Events"
+            },
+            {
+                "body_of_work": "Partner Marketing"
+            },
+            {
+                "body_of_work": "Brand Marketing"
+            },
+            {
+                "body_of_work": "Content Marketing"
+            },
+            {
+                "body_of_work": "Product Marketing"
+            },
+            {
+                "body_of_work": "Marketing Services"
+            },
+            {
+                "body_of_work": "Channel Sales"
+            },
+            {
+                "body_of_work": "Direct Sales Enterprise, MMK and SMB"
+            },
+            {
+                "body_of_work": "Revenue Operations"
+            },
+            {
+                "body_of_work": "Account Management"
+            },
+            {
+                "body_of_work": "Sales Engineering"
+            },
+            {
+                "body_of_work": "Renewals"
+            }
+        ]
+    },
+    "ai_impact_points": [
+        {
+            "impact_id": 22,
+            "archetype_id": 0,
+            "impact_category": "Strategic Foresight",
+            "impact_description": "Enables advanced forecasting, 'what-if' scenario modeling, and complex simulations for more robust strategic planning."
+        },
+        {
+            "impact_id": 23,
+            "archetype_id": 0,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Augments human strategists by mitigating cognitive biases and processing vast quantities of data to uncover subtle patterns."
+        },
+        {
+            "impact_id": 24,
+            "archetype_id": 0,
+            "impact_category": "Functional Automation",
+            "impact_description": "Drives a revolution in supply chains through predictive maintenance, autonomous logistics, and intelligent inventory management."
+        },
+        {
+            "impact_id": 25,
+            "archetype_id": 0,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Augments HR functions with AI-driven candidate sourcing, personalized employee learning paths, and predictive attrition modeling."
+        },
+        {
+            "impact_id": 26,
+            "archetype_id": 0,
+            "impact_category": "Functional Automation",
+            "impact_description": "Reshapes Finance with enhanced fraud detection, algorithmic trading support, and automated financial reporting and analysis."
+        },
+        {
+            "impact_id": 27,
+            "archetype_id": 0,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Equips sales teams with 'next best action' recommendations and marketers with tools for real-time campaign optimization."
+        },
+        {
+            "impact_id": 28,
+            "archetype_id": 0,
+            "impact_category": "Functional Automation",
+            "impact_description": "Transforms IT operations through AIOps, which automates the monitoring, diagnostics, and remediation of IT infrastructure issues."
+        },
+        {
+            "impact_id": 29,
+            "archetype_id": 0,
+            "impact_category": "New Capabilities",
+            "impact_description": "Accelerates R&D and innovation through rapid analysis of experimental data and the use of generative AI for ideation and prototyping."
+        },
+        {
+            "impact_id": 30,
+            "archetype_id": 0,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Creates a universal need for a dedicated Data & AI Governance function to manage ethics, risk, compliance, and security."
+        },
+        {
+            "impact_id": 31,
+            "archetype_id": 0,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Introduces new security vulnerabilities, including data poisoning, model evasion, and the malicious use of AI-generated content."
+        },
+        {
+            "impact_id": 32,
+            "archetype_id": 0,
+            "impact_category": "New Capabilities",
+            "impact_description": "Enables dynamic risk sensing by continuously monitoring internal and external signals to identify emerging threats and improve organizational resilience."
+        },
+        {
+            "impact_id": 33,
+            "archetype_id": 0,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Demands the rise of new leadership roles like the Chief AI Officer (CAIO) to orchestrate AI strategy and governance."
+        },
+        {
+            "impact_id": 1,
+            "archetype_id": 1,
+            "impact_category": "Functional Automation",
+            "impact_description": "Automates routine tasks within specialized functions (e.g., automated transaction analysis in Finance), deepening expert focus."
+        },
+        {
+            "impact_id": 2,
+            "archetype_id": 1,
+            "impact_category": "New Capabilities",
+            "impact_description": "Challenges functional silos by enabling seamless data flow and intelligent process automation (e.g., content supply chain) that cuts across departments."
+        },
+        {
+            "impact_id": 3,
+            "archetype_id": 1,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Reinforces deep specialization by handling data-intensive analysis, allowing functional experts to concentrate on high-level strategy and complex exceptions."
+        }
+    ]
+}

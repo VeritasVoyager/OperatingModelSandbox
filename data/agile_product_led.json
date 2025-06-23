@@ -1,0 +1,478 @@
+{
+    "model_name": "Agile (Product-Led) Operating Model",
+    "tagline": "Organized for rapid innovation and continuous customer value.",
+    "description_short": "A model where the organization aligns all functions around its products, using agile, cross-functional teams to deliver continuous value and adapt quickly to customer needs.",
+    "description_long": "The Agile (Product-Led) Operating Model realigns the entire organization around the continuous delivery of product offerings, with an unwavering focus on customer value and rapid innovation. It uses agile methodologies and empowered, cross-functional teams to break down silos. The core strategic intent is to shorten time-to-market and increase adaptability by shifting from a temporary \"project\" mindset to a durable \"product\" ethos.",
+    "file_slug": "agile_product_led",
+    "tags": [
+        {
+            "tag_id": 119,
+            "archetype_id": 4,
+            "tag_category": "Best For",
+            "tag_value": "Innovation"
+        },
+        {
+            "tag_id": 120,
+            "archetype_id": 4,
+            "tag_category": "Best For",
+            "tag_value": "Agility"
+        },
+        {
+            "tag_id": 121,
+            "archetype_id": 4,
+            "tag_category": "Size",
+            "tag_value": "Startup"
+        },
+        {
+            "tag_id": 122,
+            "archetype_id": 4,
+            "tag_category": "Size",
+            "tag_value": "Medium Enterprise"
+        },
+        {
+            "tag_id": 123,
+            "archetype_id": 4,
+            "tag_category": "Size",
+            "tag_value": "Enterprise"
+        },
+        {
+            "tag_id": 124,
+            "archetype_id": 4,
+            "tag_category": "Industries",
+            "tag_value": "Software / SaaS"
+        },
+        {
+            "tag_id": 125,
+            "archetype_id": 4,
+            "tag_category": "Industries",
+            "tag_value": "FinTech"
+        },
+        {
+            "tag_id": 126,
+            "archetype_id": 4,
+            "tag_category": "Industries",
+            "tag_value": "E-commerce"
+        }
+    ],
+    "strengths_weaknesses": {
+        "strengths": [
+            "Enhanced Customer Satisfaction & Retention",
+            "Faster Time-to-Market & Accelerated Value Delivery",
+            "Increased Innovation & Adaptability",
+            "Improved Employee Engagement & Productivity",
+            "Reduced Costs & Optimized Resource Utilization"
+        ],
+        "weaknesses": [
+            "Cultural Resistance & Mindset Shift",
+            "Lack of Clear Ownership & Accountability (if poorly implemented)",
+            "Misapplication of Agile Principles (\"Fake Agile\")",
+            "Communication Friction & Misalignment",
+            "Scaling Challenges across the Enterprise"
+        ]
+    },
+    "kpis": [
+        {
+            "kpi_id": 322,
+            "archetype_id": 4,
+            "kpi_name": "Customer Retention Rate / Churn Rate",
+            "kpi_type": "Lagging",
+            "purpose": "Measures the product's ability to deliver sustained value over time, a core goal of the model."
+        },
+        {
+            "kpi_id": 323,
+            "archetype_id": 4,
+            "kpi_name": "Customer Lifetime Value (CLV)",
+            "kpi_type": "Lagging",
+            "purpose": "Reflects the long-term financial health and success of the customer relationship."
+        },
+        {
+            "kpi_id": 324,
+            "archetype_id": 4,
+            "kpi_name": "Activation Rate",
+            "kpi_type": "Leading",
+            "purpose": "Indicates the percentage of new users who experience the product's core value (\"aha moment\"), predicting future retention."
+        },
+        {
+            "kpi_id": 325,
+            "archetype_id": 4,
+            "kpi_name": "Feature Adoption Rate",
+            "kpi_type": "Leading",
+            "purpose": "Measures if teams are building features users actually want and engage with, guiding future development."
+        },
+        {
+            "kpi_id": 326,
+            "archetype_id": 4,
+            "kpi_name": "Development Velocity",
+            "kpi_type": "Leading",
+            "purpose": "Indicates the pace and predictability of the development team's output."
+        }
+    ],
+    "governance_leadership": [
+        {
+            "gov_id": 423,
+            "archetype_id": 4,
+            "category": "C-Suite",
+            "point": "The C-Suite's role shifts from command-and-control to context-setting. The Chief Product Officer (CPO) and Chief Technology Officer (CTO) often form a key strategic partnership."
+        },
+        {
+            "gov_id": 424,
+            "archetype_id": 4,
+            "category": "L1/L2 Roles",
+            "point": "Day-to-day leadership is embedded in roles like the Product Manager (defines the \"what\" and \"why\"), Product Owner (manages backlog for the team), and Scrum Master (facilitates the agile process)."
+        },
+        {
+            "gov_id": 425,
+            "archetype_id": 4,
+            "category": "Mechanisms",
+            "point": "Governance is achieved through frameworks like Objectives and Key Results (OKRs), which align autonomous teams to shared, ambitious goals without dictating specific tasks."
+        },
+        {
+            "gov_id": 426,
+            "archetype_id": 4,
+            "category": "Mechanisms",
+            "point": "Agile ceremonies (e.g., Sprint Planning, Reviews, Retrospectives) act as the primary, continuous governance rhythm for teams, ensuring transparency, feedback, and adaptation."
+        },
+        {
+            "gov_id": 427,
+            "archetype_id": 4,
+            "category": "Decision Authority",
+            "point": "Decision-making is highly decentralized and pushed down to the empowered, cross-functional product teams. This fosters speed and ownership."
+        },
+        {
+            "gov_id": 428,
+            "archetype_id": 4,
+            "category": "Decision Authority",
+            "point": "Decisions are data-driven, relying on product usage analytics, A/B testing results, and direct customer feedback to guide product evolution, rather than top-down directives."
+        }
+    ],
+    "industry_nuances": [
+        {
+            "nuance_id": 511,
+            "archetype_id": 4,
+            "industry_name": "Software / SaaS",
+            "application": "The native environment for this model. The entire customer lifecycle, from acquisition (often via freemium/trials) to retention, is built into the product itself.",
+            "challenges": "A primary challenge is \"feature bloat,\" where rapid iteration without a clear vision leads to a confusing product. Maintaining strategic focus amidst continuous feedback is key.",
+            "best_practices": "Prioritize user-centric design. Implement self-serve onboarding that guides users to their \"aha moment\" quickly. Make decisions based on rigorous product usage data."
+        },
+        {
+            "nuance_id": 512,
+            "archetype_id": 4,
+            "industry_name": "Financial Services (FinTech)",
+            "application": "Established banks adopt this model (e.g., using Spotify's \"Squads\") to compete with agile FinTech startups. Focus is on improving time-to-market for new digital products and enhancing customer engagement.",
+            "challenges": "Overcoming deeply ingrained legacy IT systems and traditional hierarchical cultures is a major hurdle. Ensuring strict regulatory compliance within fast-paced agile sprints requires careful process design.",
+            "best_practices": "Implement pilot programs for incremental adoption to mitigate risk. Use customer-centric metrics like Net Promoter Score (NPS) to guide development."
+        },
+        {
+            "nuance_id": 513,
+            "archetype_id": 4,
+            "industry_name": "Advanced Manufacturing",
+            "application": "Agile principles are adapted for physical products (e.g., iterative hardware design by Tesla). Value streams must integrate R&D, software, and physical production cycles.",
+            "challenges": "Physical constraints make rapid iteration and feedback loops more challenging and costly than in pure software. Integrating long hardware production cycles with fast software sprints is complex.",
+            "best_practices": "Form small, intensely collaborative, cross-functional teams. Implement continuous automated testing where possible. Use digital twins for virtual iteration before physical prototyping."
+        }
+    ],
+    "functional_view_data": {
+        "Finance": [
+            {
+                "body_of_work": "Financial Planning & Analysis"
+            },
+            {
+                "body_of_work": "Accounting & Payroll"
+            },
+            {
+                "body_of_work": "Legal & Compliance"
+            }
+        ],
+        "G&A": [
+            {
+                "body_of_work": "Transformation & PMO"
+            }
+        ],
+        "Go-to-Market Ops": [
+            {
+                "body_of_work": "Revenue Operations (RevOps)"
+            },
+            {
+                "body_of_work": "Sales Engineering"
+            }
+        ],
+        "Growth Marketing": [
+            {
+                "body_of_work": "Demand Generation (Top of Funnel)"
+            },
+            {
+                "body_of_work": "Content & Brand Marketing"
+            },
+            {
+                "body_of_work": "Digital Marketing & SEO/SEM"
+            }
+        ],
+        "IT / Security": [
+            {
+                "body_of_work": "Information Security & IT Governance"
+            }
+        ],
+        "People / HR": [
+            {
+                "body_of_work": "Talent Acquisition"
+            },
+            {
+                "body_of_work": "People Operations & HR Business Partners"
+            }
+        ],
+        "Platform Engineering": [
+            {
+                "body_of_work": "DevOps / Site Reliability Engineering"
+            },
+            {
+                "body_of_work": "Core Data Management & Infrastructure"
+            },
+            {
+                "body_of_work": "Tech Strategy & Product Architecture"
+            },
+            {
+                "body_of_work": "Product Security"
+            }
+        ],
+        "Post-Sales & Operations": [
+            {
+                "body_of_work": "Customer Success Management"
+            },
+            {
+                "body_of_work": "Customer Service & Support"
+            },
+            {
+                "body_of_work": "Professional Services & Implementation"
+            },
+            {
+                "body_of_work": "Technical Integrations & Support"
+            },
+            {
+                "body_of_work": "Renewals & Account Management"
+            }
+        ],
+        "Product Operations": [
+            {
+                "body_of_work": "Product Operations"
+            },
+            {
+                "body_of_work": "User Experience Research"
+            },
+            {
+                "body_of_work": "Pricing & Packaging Strategy"
+            }
+        ],
+        "Product Squad": [
+            {
+                "body_of_work": "Software Development"
+            },
+            {
+                "body_of_work": "Product Strategy / Management"
+            },
+            {
+                "body_of_work": "Product UX/UI Design"
+            },
+            {
+                "body_of_work": "Quality Assurance"
+            },
+            {
+                "body_of_work": "Product Marketing (Embedded)"
+            },
+            {
+                "body_of_work": "Business Analytics (Embedded)"
+            }
+        ]
+    },
+    "financial_view_data": {
+        "COGS": [
+            {
+                "body_of_work": "Business Analytics (Embedded)"
+            },
+            {
+                "body_of_work": "Customer Success Management"
+            },
+            {
+                "body_of_work": "Customer Service & Support"
+            },
+            {
+                "body_of_work": "Professional Services & Implementation"
+            }
+        ],
+        "G&A": [
+            {
+                "body_of_work": "Core Data Management & Infrastructure"
+            },
+            {
+                "body_of_work": "Financial Planning & Analysis"
+            },
+            {
+                "body_of_work": "Accounting & Payroll"
+            },
+            {
+                "body_of_work": "Legal & Compliance"
+            },
+            {
+                "body_of_work": "Talent Acquisition"
+            },
+            {
+                "body_of_work": "People Operations & HR Business Partners"
+            },
+            {
+                "body_of_work": "Information Security & IT Governance"
+            },
+            {
+                "body_of_work": "Transformation & PMO"
+            }
+        ],
+        "R&D": [
+            {
+                "body_of_work": "Software Development"
+            },
+            {
+                "body_of_work": "Product Strategy / Management"
+            },
+            {
+                "body_of_work": "Product UX/UI Design"
+            },
+            {
+                "body_of_work": "Quality Assurance"
+            },
+            {
+                "body_of_work": "Product Operations"
+            },
+            {
+                "body_of_work": "User Experience Research"
+            },
+            {
+                "body_of_work": "DevOps / Site Reliability Engineering"
+            },
+            {
+                "body_of_work": "Tech Strategy & Product Architecture"
+            },
+            {
+                "body_of_work": "Product Security"
+            },
+            {
+                "body_of_work": "Technical Integrations & Support"
+            }
+        ],
+        "S&M": [
+            {
+                "body_of_work": "Product Marketing (Embedded)"
+            },
+            {
+                "body_of_work": "Pricing & Packaging Strategy"
+            },
+            {
+                "body_of_work": "Demand Generation (Top of Funnel)"
+            },
+            {
+                "body_of_work": "Content & Brand Marketing"
+            },
+            {
+                "body_of_work": "Digital Marketing & SEO/SEM"
+            },
+            {
+                "body_of_work": "Revenue Operations (RevOps)"
+            },
+            {
+                "body_of_work": "Sales Engineering"
+            },
+            {
+                "body_of_work": "Renewals & Account Management"
+            }
+        ]
+    },
+    "ai_impact_points": [
+        {
+            "impact_id": 22,
+            "archetype_id": 0,
+            "impact_category": "Strategic Foresight",
+            "impact_description": "Enables advanced forecasting, 'what-if' scenario modeling, and complex simulations for more robust strategic planning."
+        },
+        {
+            "impact_id": 23,
+            "archetype_id": 0,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Augments human strategists by mitigating cognitive biases and processing vast quantities of data to uncover subtle patterns."
+        },
+        {
+            "impact_id": 24,
+            "archetype_id": 0,
+            "impact_category": "Functional Automation",
+            "impact_description": "Drives a revolution in supply chains through predictive maintenance, autonomous logistics, and intelligent inventory management."
+        },
+        {
+            "impact_id": 25,
+            "archetype_id": 0,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Augments HR functions with AI-driven candidate sourcing, personalized employee learning paths, and predictive attrition modeling."
+        },
+        {
+            "impact_id": 26,
+            "archetype_id": 0,
+            "impact_category": "Functional Automation",
+            "impact_description": "Reshapes Finance with enhanced fraud detection, algorithmic trading support, and automated financial reporting and analysis."
+        },
+        {
+            "impact_id": 27,
+            "archetype_id": 0,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Equips sales teams with 'next best action' recommendations and marketers with tools for real-time campaign optimization."
+        },
+        {
+            "impact_id": 28,
+            "archetype_id": 0,
+            "impact_category": "Functional Automation",
+            "impact_description": "Transforms IT operations through AIOps, which automates the monitoring, diagnostics, and remediation of IT infrastructure issues."
+        },
+        {
+            "impact_id": 29,
+            "archetype_id": 0,
+            "impact_category": "New Capabilities",
+            "impact_description": "Accelerates R&D and innovation through rapid analysis of experimental data and the use of generative AI for ideation and prototyping."
+        },
+        {
+            "impact_id": 30,
+            "archetype_id": 0,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Creates a universal need for a dedicated Data & AI Governance function to manage ethics, risk, compliance, and security."
+        },
+        {
+            "impact_id": 31,
+            "archetype_id": 0,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Introduces new security vulnerabilities, including data poisoning, model evasion, and the malicious use of AI-generated content."
+        },
+        {
+            "impact_id": 32,
+            "archetype_id": 0,
+            "impact_category": "New Capabilities",
+            "impact_description": "Enables dynamic risk sensing by continuously monitoring internal and external signals to identify emerging threats and improve organizational resilience."
+        },
+        {
+            "impact_id": 33,
+            "archetype_id": 0,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Demands the rise of new leadership roles like the Chief AI Officer (CAIO) to orchestrate AI strategy and governance."
+        },
+        {
+            "impact_id": 10,
+            "archetype_id": 4,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Dramatically accelerates development cycles through AI-assisted coding, intelligent testing, and automated deployment pipelines (AIOps)."
+        },
+        {
+            "impact_id": 11,
+            "archetype_id": 4,
+            "impact_category": "Strategic Foresight",
+            "impact_description": "Improves sprint planning and resource allocation through predictive analytics on team velocity and task complexity."
+        },
+        {
+            "impact_id": 12,
+            "archetype_id": 4,
+            "impact_category": "New Capabilities",
+            "impact_description": "Supercharges customer-centricity by enabling hyper-personalization of experiences and facilitating rapid, tailored responses to evolving customer needs."
+        }
+    ]
+}

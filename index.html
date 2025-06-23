@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operating Model Sandbox</title>
+    <style>
+        :root { --background-color: #f8f9fa; --card-color: #ffffff; --text-primary: #212529; --text-secondary: #6c757d; --primary-accent: #0052cc; --border-color: #dee2e6; }
+        body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: var(--background-color); color: var(--text-secondary); margin: 0; line-height: 1.6; }
+        .hidden { display: none !important; }
+        .container { max-width: 1200px; margin: 32px auto; padding: 0 32px; }
+        .main-header { padding: 16px 32px; background-color: var(--card-color); border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; }
+        .main-header h1 { margin: 0; font-size: 1.5rem; color: var(--text-primary); }
+        .main-header nav a { margin-left: 24px; text-decoration: none; color: var(--primary-accent); font-weight: 500; padding: 8px; border-radius: 6px; transition: background-color 0.2s; }
+        .main-header nav a:hover { background-color: #e9ecef; }
+        .main-footer { padding: 20px 32px; margin-top: 48px; text-align: center; font-size: 0.9rem; border-top: 1px solid var(--border-color); color: #6c757d; }
+        .page-header { margin-bottom: 24px; }
+        .category-header { font-size: 1.75rem; font-weight: 600; color: var(--text-primary); margin: 40px 0 16px 0; border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+        .homepage-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
+        .homepage-card { background-color: var(--card-color); border: 1px solid var(--border-color); border-radius: 8px; padding: 24px; box-shadow: 0 4px 6px rgba(0,0,0,0.04); text-decoration: none; color: var(--text-primary); display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s; }
+        .homepage-card:hover { transform: translateY(-5px); box-shadow: 0 8px 12px rgba(0,0,0,0.08); }
+        .homepage-card h3 { font-size: 1.2rem; margin: 0 0 8px 0; }
+        .homepage-card .tagline { color: var(--text-secondary); margin-bottom: 16px; font-weight: 500; flex-grow: 1; }
+        .homepage-card-tags { display: flex; flex-wrap: wrap; gap: 6px; font-size: 0.75rem; }
+        .homepage-card-tags span { background-color: #e9ecef; border-radius: 4px; padding: 4px 8px; white-space: nowrap; }
+        .detail-page-container { display: grid; grid-template-columns: 280px 1fr; gap: 48px; align-items: start; }
+        .left-column { position: sticky; top: 32px; }
+        .left-column h2 { font-size: 2.2rem; font-weight: 700; color: var(--text-primary); margin-top: 0; line-height: 1.2; }
+        .tags-container { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin: 24px 0; }
+        .pill-tag { padding: 4px 12px; border-radius: 9999px; background-color: #e9ecef; border: 1px solid #ced4da; color: #495057; font-size: 0.8rem; font-weight: 600; white-space: nowrap; }
+        .right-column .card { background-color: var(--card-color); border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 24px; box-shadow: 0 4px 6px rgba(0,0,0,0.04); overflow: hidden; }
+        .right-column .card h3 { font-size: 1.5rem; font-weight: 600; color: var(--text-primary); margin: 0; padding: 16px 24px; border-bottom: 1px solid var(--border-color); }
+        .card-content { padding: 24px; }
+        .kpi-list-item { display: flex; align-items: center; margin-bottom: 12px; }
+        .kpi-indicator { margin-right: 10px; font-size: 1.2rem; }
+        .grid-container { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+        h4, h5 { font-weight: 700; color: var(--text-primary); margin-top: 1.5rem; margin-bottom: 0.5rem; }
+        h4 { font-size: 1.1rem; }
+        h5 { font-size: 1rem; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-secondary); }
+        ul { padding-left: 20px; margin-top: 8px; }
+        .toolkit { background-color: #e3edfc; border: 1px solid #b3d1ff; }
+        .toolkit h3 { background-color: #d1e3ff; }
+        .toolkit-buttons { display: flex; gap: 16px; }
+        .toolkit-button { flex: 1; padding: 12px; border: 1px solid var(--primary-accent); background-color: var(--primary-accent); color: white; border-radius: 6px; text-align: center; font-weight: 500; cursor: pointer; transition: background-color 0.2s; }
+        .toolkit-button:hover { background-color: #0044a3; }
+        .toolkit-button.copied { background-color: #198754; border-color: #198754; }
+        .playbook-container .card { margin-bottom: 24px; }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <h1>Operating Model Sandbox</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#playbook">Implementation Playbook</a>
+            <a href="#how-to-use">How to Use</a>
+            <a href="#methodology">Methodology</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- ======================= HOMEPAGE VIEW ======================= -->
+        <div id="homepage-view">
+            <div class="page-header">
+                <h2>The Operating Model Sandbox</h2>
+                <p>An internal strategic enablement resource to explore, compare, and understand core organizational archetypes. This tool provides a synthesized, structured framework based on publicly available thought leadership to accelerate analysis and decision-making.</p>
+            </div>
+            
+            <h3 class="category-header">Operating Model Archetypes</h3>
+            <div id="homepage-grid" class="homepage-grid"></div>
+        </div>
+
+        <!-- ======================= DETAIL PAGE VIEW ======================= -->
+        <div id="detail-view" class="hidden">
+            <div class="detail-page-container">
+                <aside class="left-column">
+                    <h2 id="model-name-header"></h2>
+                    <div id="tags-container" class="tags-container"></div>
+                </aside>
+                <section class="right-column">
+                    <div class="card toolkit" id="consultants-toolkit">
+                        <h3>Consultant's Toolkit</h3>
+                        <div class="card-content">
+                            <div class="toolkit-buttons">
+                                <button id="copy-insights-btn" class="toolkit-button">📋 Copy Key Insights</button>
+                                <button id="download-decomp-btn" class="toolkit-button">🖼️ Download Decomposition</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" id="executive-summary">
+                        <h3>Core Logic & Rationale</h3>
+                        <div class="card-content" id="summary-content"></div>
+                    </div>
+                    <div class="card" id="strengths-vs-weaknesses">
+                        <h3>Strengths vs. Weaknesses</h3>
+                        <div class="card-content grid-container">
+                            <div><h4>Strengths</h4><ul id="strengths-list"></ul></div>
+                            <div><h4>Weaknesses</h4><ul id="weaknesses-list"></ul></div>
+                        </div> 
+                    </div>
+                    <div class="card" id="key-kpis">
+                        <h3>Key KPIs</h3>
+                        <div class="card-content" id="kpi-list"></div>
+                    </div>
+                    <div class="card" id="governance-leadership">
+                        <h3>Governance & Leadership</h3>
+                        <div class="card-content" id="governance-text"></div>
+                    </div>
+                    <div class="card" id="industry-nuances">
+                        <h3>Industry Nuances</h3>
+                        <div class="card-content" id="industry-nuances-text"></div>
+                    </div>
+                    <div class="card" id="functional-decomposition">
+                        <h3>Functional Decomposition <small>(Illustrative Template)</small></h3>
+                        <div class="card-content grid-container">
+                            <div><h4>Functional View</h4><div id="functional-view-container"></div></div>
+                            <div><h4>Financial View (G&A, COGS...)</h4><div id="financial-view-container"></div></div>
+                        </div>
+                    </div>
+                    <div class="card" id="ai-integration">
+                        <h3>AI Integration & Impact</h3>
+                        <div class="card-content" id="ai-integration-text"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- ======================= PLAYBOOK VIEW ======================= -->
+        <div id="playbook-view" class="hidden">
+            <h2>Implementation Playbook</h2>
+            <p>A standardized guide for transformation and change management activities.</p>
+            <div id="playbook-container"></div>
+        </div>
+
+        <!-- ======================= STATIC PAGES ======================= -->
+        <div id="how-to-use-view" class="hidden">
+            <h2>How to Use This Tool</h2>
+            <ol>
+                <li><strong>Start with a Model:</strong> On the homepage, use the tags to quickly find the models most relevant to your client's context.</li>
+                <li><strong>Dive Deep:</strong> On the detail pages, review the synthesized research across all sections.</li>
+                <li><strong>Analyze & Apply:</strong> Use the "Consultant's Toolkit" at the top to download visuals or copy key insights for your documents.</li>
+            </ol>
+        </div>
+        <div id="methodology-view" class="hidden">
+            <h2>Methodology, Sources, & Intended Use</h2>
+            <h4>Project Philosophy & Intended Use:</h4>
+            <p>This tool is an internal strategic enablement resource. Its knowledge base is built upon a rigorous synthesis of publicly available thought leadership. Our contribution is the analysis, comparison, and structuring of these public concepts into a coherent framework. We are not presenting these concepts as our own invention. This tool is designed to be a credible starting point. It is not a substitute for the bespoke client analysis and expert consultant judgment that remain at the heart of our work.</p>
+            <h4>Acknowledgment of Key Sources:</h4>
+            <p>Key publications synthesized include HBR, McKinsey Quarterly, Bain Insights, etc.</p>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>Operating Model Sandbox | Version 2.0</p>
+    </footer>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

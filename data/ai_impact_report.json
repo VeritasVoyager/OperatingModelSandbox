@@ -1,0 +1,200 @@
+[
+    {
+        "impact_id": 1,
+        "archetype_id": 1,
+        "impact_category": "Functional Automation",
+        "impact_description": "Automates routine tasks within specialized functions (e.g., automated transaction analysis in Finance), deepening expert focus."
+    },
+    {
+        "impact_id": 2,
+        "archetype_id": 1,
+        "impact_category": "New Capabilities",
+        "impact_description": "Challenges functional silos by enabling seamless data flow and intelligent process automation (e.g., content supply chain) that cuts across departments."
+    },
+    {
+        "impact_id": 3,
+        "archetype_id": 1,
+        "impact_category": "Role Augmentation",
+        "impact_description": "Reinforces deep specialization by handling data-intensive analysis, allowing functional experts to concentrate on high-level strategy and complex exceptions."
+    },
+    {
+        "impact_id": 4,
+        "archetype_id": 2,
+        "impact_category": "Strategic Foresight",
+        "impact_description": "Enhances central coordination by providing a unified, real-time view of performance, market intelligence, and customer insights across all divisions."
+    },
+    {
+        "impact_id": 5,
+        "archetype_id": 2,
+        "impact_category": "Governance Challenges",
+        "impact_description": "Risks a re-centralization of strategic decisions (e.g., pricing, product development) as enterprise-level AI analytics from a CoE can challenge divisional autonomy."
+    },
+    {
+        "impact_id": 6,
+        "archetype_id": 2,
+        "impact_category": "Role Augmentation",
+        "impact_description": "Provides divisions with superior local data and predictive tools for more informed, decentralized operational decision-making."
+    },
+    {
+        "impact_id": 7,
+        "archetype_id": 3,
+        "impact_category": "Role Augmentation",
+        "impact_description": "Simplifies complexities by providing clearer, data-driven insights for resource allocation and project prioritization, reducing ambiguity in dual reporting lines."
+    },
+    {
+        "impact_id": 8,
+        "archetype_id": 3,
+        "impact_category": "New Capabilities",
+        "impact_description": "Enhances coordination between functional and project axes through AI-powered collaboration platforms and shared information dashboards."
+    },
+    {
+        "impact_id": 9,
+        "archetype_id": 3,
+        "impact_category": "Governance Challenges",
+        "impact_description": "The need for human-in-the-loop (HITL) oversight for GenAI outputs can increase managerial workload, potentially altering spans of control and power dynamics."
+    },
+    {
+        "impact_id": 10,
+        "archetype_id": 4,
+        "impact_category": "Role Augmentation",
+        "impact_description": "Dramatically accelerates development cycles through AI-assisted coding, intelligent testing, and automated deployment pipelines (AIOps)."
+    },
+    {
+        "impact_id": 11,
+        "archetype_id": 4,
+        "impact_category": "Strategic Foresight",
+        "impact_description": "Improves sprint planning and resource allocation through predictive analytics on team velocity and task complexity."
+    },
+    {
+        "impact_id": 12,
+        "archetype_id": 4,
+        "impact_category": "New Capabilities",
+        "impact_description": "Supercharges customer-centricity by enabling hyper-personalization of experiences and facilitating rapid, tailored responses to evolving customer needs."
+    },
+    {
+        "impact_id": 13,
+        "archetype_id": 5,
+        "impact_category": "New Capabilities",
+        "impact_description": "Delivers a deep, granular understanding of customer behavior, preferences, and pain points by analyzing data from all touchpoints."
+    },
+    {
+        "impact_id": 14,
+        "archetype_id": 5,
+        "impact_category": "Functional Automation",
+        "impact_description": "Enables proactive service interventions and automates journey orchestration to ensure seamless, low-effort customer experiences."
+    },
+    {
+        "impact_id": 15,
+        "archetype_id": 5,
+        "impact_category": "Strategic Foresight",
+        "impact_description": "Pinpoints specific friction points or 'moments of truth' in the customer journey, enabling targeted improvements and continuous optimization."
+    },
+    {
+        "impact_id": 16,
+        "archetype_id": 6,
+        "impact_category": "Functional Automation",
+        "impact_description": "Powers and scales core platform functions like sophisticated recommendation engines, matchmaking algorithms, and fraud detection systems."
+    },
+    {
+        "impact_id": 17,
+        "archetype_id": 6,
+        "impact_category": "New Capabilities",
+        "impact_description": "Strengthens network effects by using AI to optimize user engagement, matchmaking efficiency, and trust-building mechanisms."
+    },
+    {
+        "impact_id": 18,
+        "archetype_id": 6,
+        "impact_category": "Governance Challenges",
+        "impact_description": "Raises new governance issues regarding platform fairness, data usage rights, and the potential for AI to introduce algorithmic bias into the ecosystem."
+    },
+    {
+        "impact_id": 19,
+        "archetype_id": 7,
+        "impact_category": "Strategic Foresight",
+        "impact_description": "Enables a fundamental shift from reactive to predictive and, increasingly, pre-emptive operations that anticipate and shape future outcomes."
+    },
+    {
+        "impact_id": 20,
+        "archetype_id": 7,
+        "impact_category": "New Capabilities",
+        "impact_description": "Functions as a fundamental upgrade to the 'organizational operating system,' altering how work is done, decisions are formulated, and value is created."
+    },
+    {
+        "impact_id": 21,
+        "archetype_id": 7,
+        "impact_category": "Role Augmentation",
+        "impact_description": "Enabled by Agentic AI, allows for the autonomous management of complex tasks and operational decisions, requiring human oversight rather than direct intervention."
+    },
+    {
+        "impact_id": 22,
+        "archetype_id": 0,
+        "impact_category": "Strategic Foresight",
+        "impact_description": "Enables advanced forecasting, 'what-if' scenario modeling, and complex simulations for more robust strategic planning."
+    },
+    {
+        "impact_id": 23,
+        "archetype_id": 0,
+        "impact_category": "Role Augmentation",
+        "impact_description": "Augments human strategists by mitigating cognitive biases and processing vast quantities of data to uncover subtle patterns."
+    },
+    {
+        "impact_id": 24,
+        "archetype_id": 0,
+        "impact_category": "Functional Automation",
+        "impact_description": "Drives a revolution in supply chains through predictive maintenance, autonomous logistics, and intelligent inventory management."
+    },
+    {
+        "impact_id": 25,
+        "archetype_id": 0,
+        "impact_category": "Role Augmentation",
+        "impact_description": "Augments HR functions with AI-driven candidate sourcing, personalized employee learning paths, and predictive attrition modeling."
+    },
+    {
+        "impact_id": 26,
+        "archetype_id": 0,
+        "impact_category": "Functional Automation",
+        "impact_description": "Reshapes Finance with enhanced fraud detection, algorithmic trading support, and automated financial reporting and analysis."
+    },
+    {
+        "impact_id": 27,
+        "archetype_id": 0,
+        "impact_category": "Role Augmentation",
+        "impact_description": "Equips sales teams with 'next best action' recommendations and marketers with tools for real-time campaign optimization."
+    },
+    {
+        "impact_id": 28,
+        "archetype_id": 0,
+        "impact_category": "Functional Automation",
+        "impact_description": "Transforms IT operations through AIOps, which automates the monitoring, diagnostics, and remediation of IT infrastructure issues."
+    },
+    {
+        "impact_id": 29,
+        "archetype_id": 0,
+        "impact_category": "New Capabilities",
+        "impact_description": "Accelerates R&D and innovation through rapid analysis of experimental data and the use of generative AI for ideation and prototyping."
+    },
+    {
+        "impact_id": 30,
+        "archetype_id": 0,
+        "impact_category": "Governance Challenges",
+        "impact_description": "Creates a universal need for a dedicated Data & AI Governance function to manage ethics, risk, compliance, and security."
+    },
+    {
+        "impact_id": 31,
+        "archetype_id": 0,
+        "impact_category": "Governance Challenges",
+        "impact_description": "Introduces new security vulnerabilities, including data poisoning, model evasion, and the malicious use of AI-generated content."
+    },
+    {
+        "impact_id": 32,
+        "archetype_id": 0,
+        "impact_category": "New Capabilities",
+        "impact_description": "Enables dynamic risk sensing by continuously monitoring internal and external signals to identify emerging threats and improve organizational resilience."
+    },
+    {
+        "impact_id": 33,
+        "archetype_id": 0,
+        "impact_category": "Governance Challenges",
+        "impact_description": "Demands the rise of new leadership roles like the Chief AI Officer (CAIO) to orchestrate AI strategy and governance."
+    }
+]

@@ -1,0 +1,498 @@
+{
+    "model_name": "Customer Journey-Oriented Operating Model",
+    "tagline": "Organized around the end-to-end customer experience.",
+    "description_short": "A model that structures the organization around key customer journeys (e.g., onboarding, issue resolution), using cross-functional teams to deliver a seamless and superior experience.",
+    "description_long": "The core strategic intent of the Customer Journey-Oriented Operating Model is to design and manage the entire organization's capabilities around the holistic end-to-end experiences of its customers. By dismantling functional silos and creating empowered, journey-focused teams, this \"outside-in\" model aims to deliver consistently superior value, foster deep customer loyalty, and achieve sustainable competitive advantage.",
+    "file_slug": "customer_journey_oriented",
+    "tags": [
+        {
+            "tag_id": 127,
+            "archetype_id": 5,
+            "tag_category": "Best For",
+            "tag_value": "Customer Experience"
+        },
+        {
+            "tag_id": 128,
+            "archetype_id": 5,
+            "tag_category": "Best For",
+            "tag_value": "Customer Loyalty"
+        },
+        {
+            "tag_id": 129,
+            "archetype_id": 5,
+            "tag_category": "Size",
+            "tag_value": "Medium Enterprise"
+        },
+        {
+            "tag_id": 130,
+            "archetype_id": 5,
+            "tag_category": "Size",
+            "tag_value": "Enterprise"
+        },
+        {
+            "tag_id": 131,
+            "archetype_id": 5,
+            "tag_category": "Industries",
+            "tag_value": "SaaS"
+        },
+        {
+            "tag_id": 132,
+            "archetype_id": 5,
+            "tag_category": "Industries",
+            "tag_value": "Financial Services"
+        },
+        {
+            "tag_id": 133,
+            "archetype_id": 5,
+            "tag_category": "Industries",
+            "tag_value": "Retail / E-commerce"
+        }
+    ],
+    "strengths_weaknesses": {
+        "strengths": [
+            "Enhanced Customer Satisfaction & Loyalty",
+            "Increased Revenue Growth & Profitability",
+            "Improved Operational Efficiency (by reducing friction)",
+            "Stronger Competitive Differentiation",
+            "Increased Organizational Agility & Adaptability"
+        ],
+        "weaknesses": [
+            "Complexity of Implementation & Transformation",
+            "Deep-Seated Cultural Resistance & Silo Mentality",
+            "Difficulty in Measuring Journey ROI",
+            "Challenges Integrating Legacy Systems & Data",
+            "Requires Significant Investment in New Skills & Capabilities"
+        ]
+    },
+    "kpis": [
+        {
+            "kpi_id": 327,
+            "archetype_id": 5,
+            "kpi_name": "Net Promoter Score (NPS)",
+            "kpi_type": "Lagging",
+            "purpose": "Measures overall customer loyalty and willingness to recommend, a key outcome of superior experience."
+        },
+        {
+            "kpi_id": 328,
+            "archetype_id": 5,
+            "kpi_name": "Customer Lifetime Value (CLTV)",
+            "kpi_type": "Lagging",
+            "purpose": "Measures the total long-term value of a customer, directly reflecting the success of retention efforts."
+        },
+        {
+            "kpi_id": 329,
+            "archetype_id": 5,
+            "kpi_name": "Customer Effort Score (CES)",
+            "kpi_type": "Leading",
+            "purpose": "Measures the ease of a customer's experience, predicting future loyalty. Lower effort is better."
+        },
+        {
+            "kpi_id": 330,
+            "archetype_id": 5,
+            "kpi_name": "Journey Completion Rate",
+            "kpi_type": "Leading",
+            "purpose": "Measures the percentage of customers successfully completing a key journey, indicating its effectiveness."
+        },
+        {
+            "kpi_id": 331,
+            "archetype_id": 5,
+            "kpi_name": "First Contact Resolution (FCR)",
+            "kpi_type": "Leading",
+            "purpose": "For support journeys, measures the percentage of issues resolved in the first interaction, indicating efficiency and satisfaction."
+        }
+    ],
+    "governance_leadership": [
+        {
+            "gov_id": 423,
+            "archetype_id": 5,
+            "category": "C-Suite",
+            "point": "The C-Suite is often expanded to include a Chief Customer Officer (CCO) or Chief Experience Officer (CXO), who acts as the primary advocate for the customer and is responsible for orchestrating the overall experience strategy."
+        },
+        {
+            "gov_id": 424,
+            "archetype_id": 5,
+            "category": "L1/L2 Roles",
+            "point": "The \"Journey Owner\" or \"Customer Journey Manager\" emerges as a critical L1/L2 leadership role, holding end-to-end accountability for the performance and continuous improvement of a specific journey (e.g., Onboarding)."
+        },
+        {
+            "gov_id": 425,
+            "archetype_id": 5,
+            "category": "L1/L2 Roles",
+            "point": "Traditional Functional Heads (e.g., Marketing, Sales) evolve into \"capability builders\" who provide skilled resources and expertise to the various journey teams, rather than directly managing the end-to-end process."
+        },
+        {
+            "gov_id": 426,
+            "archetype_id": 5,
+            "category": "Mechanisms",
+            "point": "Governance is managed by a CX Steering Committee or Journey Council, a cross-functional body that prioritizes journey initiatives, allocates resources, and resolves cross-journey conflicts."
+        },
+        {
+            "gov_id": 427,
+            "archetype_id": 5,
+            "category": "Mechanisms",
+            "point": "Performance is tracked via journey-specific KPIs (e.g., completion rates, stage-specific satisfaction) and overall relationship metrics (NPS, CLTV), shifting focus from purely functional or departmental targets."
+        },
+        {
+            "gov_id": 428,
+            "archetype_id": 5,
+            "category": "Decision Authority",
+            "point": "Decision-making for the design and improvement of a specific journey is highly decentralized to the empowered, cross-functional Journey Owner and their team."
+        },
+        {
+            "gov_id": 429,
+            "archetype_id": 5,
+            "category": "Decision Authority",
+            "point": "Decisions are heavily influenced by the \"voice of the customer,\" with robust feedback loops (VoC programs, journey analytics) directly informing prioritization and design choices."
+        }
+    ],
+    "industry_nuances": [
+        {
+            "nuance_id": 514,
+            "archetype_id": 5,
+            "industry_name": "SaaS",
+            "application": "The model is built around key user lifecycle journeys: acquisition, onboarding (activation), adoption, retention, and expansion. Customer Success Management (CSM) teams orchestrate this journey.",
+            "challenges": "Scaling personalized engagement as the user base grows. Integrating product usage data with CRM data for a true 360-degree view.",
+            "best_practices": "Use data-driven customer health scores to trigger proactive engagement. Provide comprehensive self-service resources (knowledge bases, tutorials)."
+        },
+        {
+            "nuance_id": 515,
+            "archetype_id": 5,
+            "industry_name": "Financial Services",
+            "application": "Focus is on delivering a secure, seamless omnichannel experience for journeys like account opening, loan applications, and fraud reporting. API strategies are crucial for connecting services.",
+            "challenges": "Overcoming legacy IT systems and data silos. Ensuring strict regulatory compliance and data security within journey workflows.",
+            "best_practices": "Integrate user-friendly digital identity verification into onboarding. Use AI for real-time fraud detection. Provide personalized financial dashboards and proactive alerts."
+        },
+        {
+            "nuance_id": 516,
+            "archetype_id": 5,
+            "industry_name": "Retail / E-commerce",
+            "application": "The entire end-to-end journey from product discovery to purchase, fulfillment, and post-purchase support is orchestrated. Amazon is a key example, focusing on lifetime customer value.",
+            "challenges": "High rates of shopping cart abandonment. Managing logistics and returns efficiently. Intense competition on price and delivery speed.",
+            "best_practices": "Use sophisticated, personalized recommendation engines. Provide a streamlined, one-click checkout process. Offer real-time order tracking and hassle-free returns."
+        }
+    ],
+    "functional_view_data": {
+        "Acquisition Journey Team": [
+            {
+                "body_of_work": "Lead Management & Sales Conversion"
+            },
+            {
+                "body_of_work": "Direct Sales Enterprise, MMK and SMB"
+            },
+            {
+                "body_of_work": "Brand Marketing (Campaigns)"
+            },
+            {
+                "body_of_work": "Sales Engineering (for complex acquisitions)"
+            }
+        ],
+        "CX Platform & Tech CoE": [
+            {
+                "body_of_work": "CX Technology Stack Management (CRM, CJO)"
+            },
+            {
+                "body_of_work": "API & Systems Integration Management"
+            }
+        ],
+        "CX/Service Design CoE": [
+            {
+                "body_of_work": "User Experience Research & Testing"
+            },
+            {
+                "body_of_work": "Service Blueprinting & Touchpoint Design"
+            },
+            {
+                "body_of_work": "Usability & A/B Testing"
+            }
+        ],
+        "Central Engineering": [
+            {
+                "body_of_work": "Core Platform Software Development"
+            },
+            {
+                "body_of_work": "DevOps & IT Infrastructure Management"
+            }
+        ],
+        "Central Finance": [
+            {
+                "body_of_work": "Corporate Financial Planning & Accounting"
+            },
+            {
+                "body_of_work": "Corporate Legal & Compliance"
+            }
+        ],
+        "Central IT": [
+            {
+                "body_of_work": "Information Security & IT Governance"
+            },
+            {
+                "body_of_work": "Enterprise-wide Data Governance"
+            }
+        ],
+        "Central Marketing": [
+            {
+                "body_of_work": "Enterprise Brand & Communications Strategy"
+            }
+        ],
+        "Central Operations": [
+            {
+                "body_of_work": "Strategic Sourcing & Procurement"
+            }
+        ],
+        "Central People / HR": [
+            {
+                "body_of_work": "Core HR, Payroll & Talent Strategy"
+            },
+            {
+                "body_of_work": "Talent Acquisition (for Journey Teams)"
+            }
+        ],
+        "Central Sales": [
+            {
+                "body_of_work": "Enterprise Sales Strategy & Channel Mgmt"
+            }
+        ],
+        "Content & Enablement CoE": [
+            {
+                "body_of_work": "Marketing & Self-Service Content Creation"
+            },
+            {
+                "body_of_work": "Self-Service Knowledge Base Management"
+            }
+        ],
+        "Customer Insights & Analytics CoE": [
+            {
+                "body_of_work": "Customer Journey Performance Analysis"
+            },
+            {
+                "body_of_work": "Voice of the Customer (VoC) Program Management"
+            },
+            {
+                "body_of_work": "Predictive Modeling (e.g., Churn, CLTV)"
+            },
+            {
+                "body_of_work": "Business Analytics (for Journey Insights)"
+            }
+        ],
+        "G&A": [
+            {
+                "body_of_work": "Transformation & PMO"
+            }
+        ],
+        "Implementation Journey Team": [
+            {
+                "body_of_work": "Professional Services & Implementation Delivery"
+            }
+        ],
+        "Onboarding Journey Team": [
+            {
+                "body_of_work": "User Onboarding & Activation"
+            }
+        ],
+        "Retention & Growth Journey Team": [
+            {
+                "body_of_work": "Proactive Retention & Renewal Management"
+            }
+        ],
+        "Support & Resolution Journey Team": [
+            {
+                "body_of_work": "Complex Customer Support Case Resolution"
+            }
+        ]
+    },
+    "financial_view_data": {
+        "COGS": [
+            {
+                "body_of_work": "Complex Customer Support Case Resolution"
+            },
+            {
+                "body_of_work": "Professional Services & Implementation Delivery"
+            }
+        ],
+        "G&A": [
+            {
+                "body_of_work": "Customer Journey Performance Analysis"
+            },
+            {
+                "body_of_work": "Voice of the Customer (VoC) Program Management"
+            },
+            {
+                "body_of_work": "CX Technology Stack Management (CRM, CJO)"
+            },
+            {
+                "body_of_work": "Enterprise Brand & Communications Strategy"
+            },
+            {
+                "body_of_work": "Enterprise Sales Strategy & Channel Mgmt"
+            },
+            {
+                "body_of_work": "Corporate Financial Planning & Accounting"
+            },
+            {
+                "body_of_work": "Corporate Legal & Compliance"
+            },
+            {
+                "body_of_work": "Core HR, Payroll & Talent Strategy"
+            },
+            {
+                "body_of_work": "Information Security & IT Governance"
+            },
+            {
+                "body_of_work": "Enterprise-wide Data Governance"
+            },
+            {
+                "body_of_work": "Transformation & PMO"
+            },
+            {
+                "body_of_work": "Strategic Sourcing & Procurement"
+            },
+            {
+                "body_of_work": "Talent Acquisition (for Journey Teams)"
+            },
+            {
+                "body_of_work": "Business Analytics (for Journey Insights)"
+            }
+        ],
+        "R&D": [
+            {
+                "body_of_work": "Predictive Modeling (e.g., Churn, CLTV)"
+            },
+            {
+                "body_of_work": "User Experience Research & Testing"
+            },
+            {
+                "body_of_work": "Service Blueprinting & Touchpoint Design"
+            },
+            {
+                "body_of_work": "Usability & A/B Testing"
+            },
+            {
+                "body_of_work": "API & Systems Integration Management"
+            },
+            {
+                "body_of_work": "Core Platform Software Development"
+            },
+            {
+                "body_of_work": "DevOps & IT Infrastructure Management"
+            }
+        ],
+        "S&M": [
+            {
+                "body_of_work": "User Onboarding & Activation"
+            },
+            {
+                "body_of_work": "Lead Management & Sales Conversion"
+            },
+            {
+                "body_of_work": "Proactive Retention & Renewal Management"
+            },
+            {
+                "body_of_work": "Marketing & Self-Service Content Creation"
+            },
+            {
+                "body_of_work": "Self-Service Knowledge Base Management"
+            },
+            {
+                "body_of_work": "Direct Sales Enterprise, MMK and SMB"
+            },
+            {
+                "body_of_work": "Brand Marketing (Campaigns)"
+            },
+            {
+                "body_of_work": "Sales Engineering (for complex acquisitions)"
+            }
+        ]
+    },
+    "ai_impact_points": [
+        {
+            "impact_id": 22,
+            "archetype_id": 0,
+            "impact_category": "Strategic Foresight",
+            "impact_description": "Enables advanced forecasting, 'what-if' scenario modeling, and complex simulations for more robust strategic planning."
+        },
+        {
+            "impact_id": 23,
+            "archetype_id": 0,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Augments human strategists by mitigating cognitive biases and processing vast quantities of data to uncover subtle patterns."
+        },
+        {
+            "impact_id": 24,
+            "archetype_id": 0,
+            "impact_category": "Functional Automation",
+            "impact_description": "Drives a revolution in supply chains through predictive maintenance, autonomous logistics, and intelligent inventory management."
+        },
+        {
+            "impact_id": 25,
+            "archetype_id": 0,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Augments HR functions with AI-driven candidate sourcing, personalized employee learning paths, and predictive attrition modeling."
+        },
+        {
+            "impact_id": 26,
+            "archetype_id": 0,
+            "impact_category": "Functional Automation",
+            "impact_description": "Reshapes Finance with enhanced fraud detection, algorithmic trading support, and automated financial reporting and analysis."
+        },
+        {
+            "impact_id": 27,
+            "archetype_id": 0,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Equips sales teams with 'next best action' recommendations and marketers with tools for real-time campaign optimization."
+        },
+        {
+            "impact_id": 28,
+            "archetype_id": 0,
+            "impact_category": "Functional Automation",
+            "impact_description": "Transforms IT operations through AIOps, which automates the monitoring, diagnostics, and remediation of IT infrastructure issues."
+        },
+        {
+            "impact_id": 29,
+            "archetype_id": 0,
+            "impact_category": "New Capabilities",
+            "impact_description": "Accelerates R&D and innovation through rapid analysis of experimental data and the use of generative AI for ideation and prototyping."
+        },
+        {
+            "impact_id": 30,
+            "archetype_id": 0,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Creates a universal need for a dedicated Data & AI Governance function to manage ethics, risk, compliance, and security."
+        },
+        {
+            "impact_id": 31,
+            "archetype_id": 0,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Introduces new security vulnerabilities, including data poisoning, model evasion, and the malicious use of AI-generated content."
+        },
+        {
+            "impact_id": 32,
+            "archetype_id": 0,
+            "impact_category": "New Capabilities",
+            "impact_description": "Enables dynamic risk sensing by continuously monitoring internal and external signals to identify emerging threats and improve organizational resilience."
+        },
+        {
+            "impact_id": 33,
+            "archetype_id": 0,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Demands the rise of new leadership roles like the Chief AI Officer (CAIO) to orchestrate AI strategy and governance."
+        },
+        {
+            "impact_id": 13,
+            "archetype_id": 5,
+            "impact_category": "New Capabilities",
+            "impact_description": "Delivers a deep, granular understanding of customer behavior, preferences, and pain points by analyzing data from all touchpoints."
+        },
+        {
+            "impact_id": 14,
+            "archetype_id": 5,
+            "impact_category": "Functional Automation",
+            "impact_description": "Enables proactive service interventions and automates journey orchestration to ensure seamless, low-effort customer experiences."
+        },
+        {
+            "impact_id": 15,
+            "archetype_id": 5,
+            "impact_category": "Strategic Foresight",
+            "impact_description": "Pinpoints specific friction points or 'moments of truth' in the customer journey, enabling targeted improvements and continuous optimization."
+        }
+    ]
+}

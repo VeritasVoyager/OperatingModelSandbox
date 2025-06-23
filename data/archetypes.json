@@ -1,0 +1,58 @@
+[
+    {
+        "file_slug": "functional",
+        "name": "Functional Operating Model",
+        "tagline": "Organized for operational efficiency and deep functional specialization.",
+        "best_for": "✨ Efficiency",
+        "size": "🏢 Enterprise",
+        "industries": "🏭 Manufacturing, 🏛️ Government"
+    },
+    {
+        "file_slug": "divisional",
+        "name": "Divisional Operating Model",
+        "tagline": "Organized for market focus and decentralized accountability.",
+        "best_for": "🎯 Market Focus",
+        "size": "🏢 Enterprise",
+        "industries": "🛍️ Consumer Goods, 💊 Pharmaceuticals"
+    },
+    {
+        "file_slug": "matrix",
+        "name": "Matrix Operating Model",
+        "tagline": "Organized for cross-functional collaboration and resource sharing.",
+        "best_for": "🤝 Collaboration",
+        "size": "🏢 Enterprise",
+        "industries": "✈️ Aerospace, 🏗️ Engineering"
+    },
+    {
+        "file_slug": "agile_product_led",
+        "name": "Agile (Product-Led) Operating Model",
+        "tagline": "Organized for rapid innovation and continuous customer value.",
+        "best_for": "🚀 Innovation",
+        "size": "💼 Mid-to-Large",
+        "industries": "💻 Tech, 핀 FinTech"
+    },
+    {
+        "file_slug": "customer_journey_oriented",
+        "name": "Customer Journey-Oriented Operating Model",
+        "tagline": "Organized around the end-to-end customer experience.",
+        "best_for": "💖 Customer Loyalty",
+        "size": "🏢 Enterprise",
+        "industries": "🏦 Banking, 📡 Telecom"
+    },
+    {
+        "file_slug": "platform",
+        "name": "Platform Operating Model",
+        "tagline": "Organized to connect ecosystems and enable value exchange.",
+        "best_for": "🔗 Network Effects",
+        "size": "🚀 Startup to Enterprise",
+        "industries": "📱 Social Media, 🛒 E-commerce"
+    },
+    {
+        "file_slug": "ai_augmented",
+        "name": "AI-Augmented Operating Model",
+        "tagline": "Organized to embed intelligence and drive competitive advantage.",
+        "best_for": "🧠 Intelligence",
+        "size": "🏢 Enterprise",
+        "industries": "All Industries"
+    }
+]

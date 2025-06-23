@@ -1,0 +1,426 @@
+{
+    "model_name": "Divisional Operating Model",
+    "tagline": "Organized for market focus and decentralized accountability.",
+    "description_short": "A model where the organization is structured into self-contained divisions, each focused on a specific product, market, or geographic region. It enhances market responsiveness and clarifies accountability by decentralizing operational authority to these distinct business units.",
+    "description_long": "The Divisional Operating Model is primarily designed to manage the complexity that arises when an organization diversifies. By creating semi-autonomous divisions, each with its own P&L responsibility, the model decentralizes operational authority, allowing for enhanced focus and specialization. This structure is intended to improve market responsiveness within each division while the corporate headquarters retains strategic control over the overall portfolio and capital allocation.",
+    "file_slug": "divisional",
+    "tags": [
+        {
+            "tag_id": 106,
+            "archetype_id": 2,
+            "tag_category": "Best For",
+            "tag_value": "Market Focus"
+        },
+        {
+            "tag_id": 107,
+            "archetype_id": 2,
+            "tag_category": "Best For",
+            "tag_value": "Accountability"
+        },
+        {
+            "tag_id": 108,
+            "archetype_id": 2,
+            "tag_category": "Size",
+            "tag_value": "Enterprise"
+        },
+        {
+            "tag_id": 109,
+            "archetype_id": 2,
+            "tag_category": "Industries",
+            "tag_value": "Consumer Goods"
+        },
+        {
+            "tag_id": 110,
+            "archetype_id": 2,
+            "tag_category": "Industries",
+            "tag_value": "Manufacturing"
+        },
+        {
+            "tag_id": 111,
+            "archetype_id": 2,
+            "tag_category": "Industries",
+            "tag_value": "Technology"
+        }
+    ],
+    "strengths_weaknesses": {
+        "strengths": [
+            "Increased Focus and Specialization",
+            "Enhanced Market Responsiveness",
+            "Clear Accountability and P&L Ownership",
+            "Development of General Managers",
+            "Strategic Flexibility for the Corporation (Portfolio Management)"
+        ],
+        "weaknesses": [
+            "Duplication of Resources and Functions",
+            "Potential for Inter-Divisional Competition and Conflicts",
+            "Coordination Challenges and Divisional Silos",
+            "Loss of Economies of Scale",
+            "Complexity in Corporate Management and Oversight"
+        ]
+    },
+    "kpis": [
+        {
+            "kpi_id": 312,
+            "archetype_id": 2,
+            "kpi_name": "Divisional Revenue Growth",
+            "kpi_type": "Lagging",
+            "purpose": "Measures the market penetration and success of an individual division within its specific domain."
+        },
+        {
+            "kpi_id": 313,
+            "archetype_id": 2,
+            "kpi_name": "Divisional Operating Margin",
+            "kpi_type": "Lagging",
+            "purpose": "Indicates the operational efficiency and profitability of each self-contained division."
+        },
+        {
+            "kpi_id": 314,
+            "archetype_id": 2,
+            "kpi_name": "Return on Investment (Divisional)",
+            "kpi_type": "Lagging",
+            "purpose": "Assesses the efficiency of capital and assets deployed to a specific division."
+        },
+        {
+            "kpi_id": 315,
+            "archetype_id": 2,
+            "kpi_name": "Market Share (per Division)",
+            "kpi_type": "Leading",
+            "purpose": "Predicts a division's competitive strength and future pricing power in its focused market."
+        },
+        {
+            "kpi_id": 316,
+            "archetype_id": 2,
+            "kpi_name": "New Product Revenue Contribution (Divisional)",
+            "kpi_type": "Leading",
+            "purpose": "Indicates the innovation effectiveness and market responsiveness of a division."
+        }
+    ],
+    "governance_leadership": [
+        {
+            "gov_id": 409,
+            "archetype_id": 2,
+            "category": "C-Suite",
+            "point": "The C-Suite's primary focus shifts to portfolio management. The CEO acts as the strategic leader of a portfolio of businesses, making key decisions on capital allocation and long-term strategy, rather than day-to-day operations."
+        },
+        {
+            "gov_id": 410,
+            "archetype_id": 2,
+            "category": "L1/L2 Roles",
+            "point": "The L1 Divisional Head (e.g., Division President, General Manager) is the critical leadership role, acting as a 'mini-CEO' with full P&L responsibility for their unit. L2 roles are the functional heads *within* each division."
+        },
+        {
+            "gov_id": 411,
+            "archetype_id": 2,
+            "category": "Mechanisms",
+            "point": "Governance relies on formal strategic planning and capital budgeting cycles where divisions compete for corporate resources. Corporate HQ uses these mechanisms to maintain control and ensure alignment."
+        },
+        {
+            "gov_id": 412,
+            "archetype_id": 2,
+            "category": "Mechanisms",
+            "point": "Performance is managed through rigorous financial reviews of divisional P&L statements and balance sheets, reinforcing a strong culture of accountability for financial results within each division."
+        },
+        {
+            "gov_id": 413,
+            "archetype_id": 2,
+            "category": "Decision Authority",
+            "point": "Operational decision-making is highly decentralized to the divisional level, allowing for speed and responsiveness to specific market conditions."
+        },
+        {
+            "gov_id": 414,
+            "archetype_id": 2,
+            "category": "Decision Authority",
+            "point": "Strategic decision-making (e.g., major acquisitions, large capital investments, corporate portfolio changes) remains highly centralized at the corporate headquarters to ensure overall enterprise coherence."
+        }
+    ],
+    "industry_nuances": [
+        {
+            "nuance_id": 505,
+            "archetype_id": 2,
+            "industry_name": "Consumer Goods (FMCG)",
+            "application": "Divisions are typically based on product categories (e.g., Beauty, Home Care) or major brands. This allows for focused brand management and marketing tailored to specific consumer segments.",
+            "challenges": "The key challenge is balancing global brand consistency with the need for local market relevance and execution. Can lead to conflict between global brand teams and country managers.",
+            "best_practices": "Establish clear decision rights for global vs. local teams. Use shared KPIs that reflect both global brand health and local market performance."
+        },
+        {
+            "nuance_id": 506,
+            "archetype_id": 2,
+            "industry_name": "Technology (Diversified)",
+            "application": "Divisions are often structured around major product lines (e.g., Cloud, Productivity Software, Hardware/Devices). This enables specialized R&D and go-to-market strategies for each distinct technology area.",
+            "challenges": "A major challenge is ensuring interoperability and a cohesive ecosystem strategy between products from different divisions. Can lead to product silos.",
+            "best_practices": "Maintain a strong, central corporate function for core platform R&D and enterprise architecture to enforce standards and drive synergy."
+        },
+        {
+            "nuance_id": 507,
+            "archetype_id": 2,
+            "industry_name": "Financial Services (Large Banks)",
+            "application": "Often divisionalized by customer segment (e.g., Retail Banking, Corporate Banking, Wealth Management). This facilitates tailored service models and product offerings for distinct client needs.",
+            "challenges": "The primary challenge is creating a unified, 360-degree view of the customer who may interact with multiple divisions. Can lead to a fragmented customer experience.",
+            "best_practices": "Invest in robust, integrated CRM and data platforms. Implement strong, centralized risk management and compliance functions to ensure consistency across the enterprise."
+        }
+    ],
+    "functional_view_data": {
+        "Corporate Finance": [
+            {
+                "body_of_work": "Investor Relations"
+            },
+            {
+                "body_of_work": "Corporate Finance & Treasury"
+            }
+        ],
+        "Corporate Governance": [
+            {
+                "body_of_work": "Corporate Legal"
+            },
+            {
+                "body_of_work": "Corporate HR (Executive Level)"
+            },
+            {
+                "body_of_work": "Shared Services Management (Optional)"
+            }
+        ],
+        "Corporate Marketing": [
+            {
+                "body_of_work": "Corporate Communications & Brand"
+            }
+        ],
+        "Corporate Strategy": [
+            {
+                "body_of_work": "Corporate Strategy & Portfolio Management"
+            },
+            {
+                "body_of_work": "Mergers & Acquisitions (M&A)"
+            }
+        ],
+        "Corporate Technology": [
+            {
+                "body_of_work": "Enterprise IT & Cybersecurity"
+            }
+        ],
+        "Finance": [
+            {
+                "body_of_work": "Divisional Financial Controlling"
+            }
+        ],
+        "General Management": [
+            {
+                "body_of_work": "Divisional General Management"
+            }
+        ],
+        "HR": [
+            {
+                "body_of_work": "Divisional Human Resources"
+            }
+        ],
+        "IT": [
+            {
+                "body_of_work": "Divisional IT Support"
+            }
+        ],
+        "Marketing": [
+            {
+                "body_of_work": "Divisional Marketing Campaigns"
+            }
+        ],
+        "Operations": [
+            {
+                "body_of_work": "Divisional Manufacturing Operations"
+            },
+            {
+                "body_of_work": "Divisional Supply Chain & Logistics"
+            },
+            {
+                "body_of_work": "Divisional Quality Assurance"
+            }
+        ],
+        "Product": [
+            {
+                "body_of_work": "Divisional Product Management"
+            }
+        ],
+        "R&D": [
+            {
+                "body_of_work": "Divisional R&D"
+            },
+            {
+                "body_of_work": "Divisional Engineering"
+            }
+        ],
+        "Sales": [
+            {
+                "body_of_work": "Divisional Sales & Account Management"
+            },
+            {
+                "body_of_work": "Divisional Customer Service"
+            }
+        ]
+    },
+    "financial_view_data": {
+        "COGS": [
+            {
+                "body_of_work": "Divisional Manufacturing Operations"
+            },
+            {
+                "body_of_work": "Divisional Supply Chain & Logistics"
+            },
+            {
+                "body_of_work": "Divisional Quality Assurance"
+            }
+        ],
+        "G&A": [
+            {
+                "body_of_work": "Corporate Strategy & Portfolio Management"
+            },
+            {
+                "body_of_work": "Mergers & Acquisitions (M&A)"
+            },
+            {
+                "body_of_work": "Investor Relations"
+            },
+            {
+                "body_of_work": "Corporate Finance & Treasury"
+            },
+            {
+                "body_of_work": "Corporate Legal"
+            },
+            {
+                "body_of_work": "Corporate HR (Executive Level)"
+            },
+            {
+                "body_of_work": "Enterprise IT & Cybersecurity"
+            },
+            {
+                "body_of_work": "Corporate Communications & Brand"
+            },
+            {
+                "body_of_work": "Shared Services Management (Optional)"
+            },
+            {
+                "body_of_work": "Divisional General Management"
+            },
+            {
+                "body_of_work": "Divisional Financial Controlling"
+            },
+            {
+                "body_of_work": "Divisional Human Resources"
+            },
+            {
+                "body_of_work": "Divisional IT Support"
+            }
+        ],
+        "R&D": [
+            {
+                "body_of_work": "Divisional Product Management"
+            },
+            {
+                "body_of_work": "Divisional R&D"
+            },
+            {
+                "body_of_work": "Divisional Engineering"
+            }
+        ],
+        "S&M": [
+            {
+                "body_of_work": "Divisional Marketing Campaigns"
+            },
+            {
+                "body_of_work": "Divisional Sales & Account Management"
+            },
+            {
+                "body_of_work": "Divisional Customer Service"
+            }
+        ]
+    },
+    "ai_impact_points": [
+        {
+            "impact_id": 22,
+            "archetype_id": 0,
+            "impact_category": "Strategic Foresight",
+            "impact_description": "Enables advanced forecasting, 'what-if' scenario modeling, and complex simulations for more robust strategic planning."
+        },
+        {
+            "impact_id": 23,
+            "archetype_id": 0,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Augments human strategists by mitigating cognitive biases and processing vast quantities of data to uncover subtle patterns."
+        },
+        {
+            "impact_id": 24,
+            "archetype_id": 0,
+            "impact_category": "Functional Automation",
+            "impact_description": "Drives a revolution in supply chains through predictive maintenance, autonomous logistics, and intelligent inventory management."
+        },
+        {
+            "impact_id": 25,
+            "archetype_id": 0,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Augments HR functions with AI-driven candidate sourcing, personalized employee learning paths, and predictive attrition modeling."
+        },
+        {
+            "impact_id": 26,
+            "archetype_id": 0,
+            "impact_category": "Functional Automation",
+            "impact_description": "Reshapes Finance with enhanced fraud detection, algorithmic trading support, and automated financial reporting and analysis."
+        },
+        {
+            "impact_id": 27,
+            "archetype_id": 0,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Equips sales teams with 'next best action' recommendations and marketers with tools for real-time campaign optimization."
+        },
+        {
+            "impact_id": 28,
+            "archetype_id": 0,
+            "impact_category": "Functional Automation",
+            "impact_description": "Transforms IT operations through AIOps, which automates the monitoring, diagnostics, and remediation of IT infrastructure issues."
+        },
+        {
+            "impact_id": 29,
+            "archetype_id": 0,
+            "impact_category": "New Capabilities",
+            "impact_description": "Accelerates R&D and innovation through rapid analysis of experimental data and the use of generative AI for ideation and prototyping."
+        },
+        {
+            "impact_id": 30,
+            "archetype_id": 0,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Creates a universal need for a dedicated Data & AI Governance function to manage ethics, risk, compliance, and security."
+        },
+        {
+            "impact_id": 31,
+            "archetype_id": 0,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Introduces new security vulnerabilities, including data poisoning, model evasion, and the malicious use of AI-generated content."
+        },
+        {
+            "impact_id": 32,
+            "archetype_id": 0,
+            "impact_category": "New Capabilities",
+            "impact_description": "Enables dynamic risk sensing by continuously monitoring internal and external signals to identify emerging threats and improve organizational resilience."
+        },
+        {
+            "impact_id": 33,
+            "archetype_id": 0,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Demands the rise of new leadership roles like the Chief AI Officer (CAIO) to orchestrate AI strategy and governance."
+        },
+        {
+            "impact_id": 4,
+            "archetype_id": 2,
+            "impact_category": "Strategic Foresight",
+            "impact_description": "Enhances central coordination by providing a unified, real-time view of performance, market intelligence, and customer insights across all divisions."
+        },
+        {
+            "impact_id": 5,
+            "archetype_id": 2,
+            "impact_category": "Governance Challenges",
+            "impact_description": "Risks a re-centralization of strategic decisions (e.g., pricing, product development) as enterprise-level AI analytics from a CoE can challenge divisional autonomy."
+        },
+        {
+            "impact_id": 6,
+            "archetype_id": 2,
+            "impact_category": "Role Augmentation",
+            "impact_description": "Provides divisions with superior local data and predictive tools for more informed, decentralized operational decision-making."
+        }
+    ]
+}
